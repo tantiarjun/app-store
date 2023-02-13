@@ -1,0 +1,39 @@
+* {
+  font-family: Bree Serif;
+}
+
+.bg-container {
+  background-image: linear-gradient(to top, #ace0f9, #fff1eb);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.search-container {
+  background-color: transparent;
+  border-color: #1e293b;
+  border-style: solid;
+  border-width: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.search-icon {
+  height: 20px;
+  margin-top: 0px;
+}
+.input-section {
+  outline: none;
+  border-width: 0px;
+  background-color: transparent;
+}
+.tab-container {
+  list-style: none;
+  display: flex;
+}
